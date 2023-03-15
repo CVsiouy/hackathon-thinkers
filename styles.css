@@ -127,6 +127,7 @@ Squarebox1_button {
 }
 /* Footer section */
 #footer {
+    padding: 2rem ;
     background-color: #1e0a3c;
     color: #BDCDD6;
 }
