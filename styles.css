@@ -1,0 +1,148 @@
+p {
+    font-weight: 600;
+}
+h1 {
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+    padding-left: 1rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #fe1e4f;
+}
+.nav-link {
+    color: #6f7287;
+    margin: 0 1rem;
+}
+.search {
+    border-radius: 0;
+    color: #000000;
+}
+.space {
+    position: absolute;
+    left: 8.5em;
+    top: 1em;
+    color: #c3c2c4;
+}
+.navbar-bg-color {
+    background-color: #ffffff;
+}
+
+
+/* Navigation-bar (tablet and mobile) */
+@media (max-width : 1106px) {
+    .dropdown-menu:disabled{
+        
+    }
+}
+
+.image {
+    position:absolute;
+    z-index:0;
+    width: 100%;
+    opacity: 45%;
+}
+/* Event-Image Starts */
+.event-container {
+    margin: 2rem 0;
+    width: 75rem;
+    height: 30rem;
+    border-radius: 1.5rem;
+    background-image:radial-gradient(circle, #e9daf2, #604b17, #f2c15f);
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    
+}
+.event-image {
+    position: relative;
+    width: 80%;
+    height: 30rem;
+    
+}
+.event-image1 {
+    position: absolute;
+    width: 70rem;
+    height: 27rem;
+    filter: blur(2rem);
+
+}
+/* Event-Image Ends */
+
+/* Body Section */
+
+#body {
+    padding: 1rem 0;
+    font-family: "Montserrat";
+    position: relative;
+    right: 18rem;
+    width: 41rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    
+}
+.horizontal-hr-rule {
+    padding: 0% 1rem;
+    position: absolute;
+    left: 4.9rem;
+    top: 11.3rem;
+    transform: rotate(90deg);
+    width: 0.5rem;
+}
+
+.inline_ {
+    display: inline;
+    padding: 0% 2rem;
+}
+.block_ {
+    display: block;
+}
+.remove_bullets {
+    list-style-type: none;
+}
+.no_padding {
+    padding: 0;
+}
+.smallest_size{
+    font-size: 11px;
+
+}
+.Squarebox1 {
+    text-align:left;
+    width: auto;
+    height: 5rem;
+    border-radius: 0.5rem;
+}
+Squarebox1_button {
+}
+.size {
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+/* Footer section */
+#footer {
+    background-color: #1e0a3c;
+    color: #BDCDD6;
+}
+footer {
+    font-family: "Montserrat";
+    position: relative;
+    margin: 0 auto;
+}
+#footer .row {
+    max-width: 1080px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.fantasy {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-align: center;
+}
