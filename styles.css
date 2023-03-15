@@ -35,7 +35,6 @@ a {
     background-color: #ffffff;
 }
 
-
 /* Navigation-bar (tablet and mobile) */
 @media (max-width : 1106px) {
     .dropdown-menu:disabled{
