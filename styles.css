@@ -54,7 +54,6 @@ a {
     width: 75rem;
     height: 30rem;
     border-radius: 1.5rem;
-    background-image:radial-gradient(circle, #e9daf2, #604b17, #f2c15f);
     overflow: hidden;
     -webkit-transform: translate3d(0, 0, 0);
     
@@ -67,9 +66,9 @@ a {
 }
 .event-image1 {
     position: absolute;
-    width: 70rem;
-    height: 27rem;
-    filter: blur(2rem);
+    width: 75rem;
+    height: 30rem;
+    filter: blur(1rem);
 
 }
 /* Event-Image Ends */
